@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f6f3fa;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin: 0;
+    color: #6f4b8b;
+    font-size: 38px;
+}
+
+header p {
+    color: #777;
+    margin-top: 8px;
+}
+
+.profile-card,
+.hobbies-card {
+    background: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(80, 50, 100, 0.08);
+}
+
+h2 {
+    margin-top: 0;
+    color: #6f4b8b;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 25px 0;
+}
+
+.info-box {
+    background: #f3edf8;
+    padding: 18px 10px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.info-box span {
+    font-size: 24px;
+}
+
+.info-box p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d8cbe2;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #8b6aa5;
+}
+
+button {
+    border: none;
+    background: #76528f;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background: #624477;
+}
+
+.hobbies-card > p {
+    color: #777;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+li {
+    background: #f3edf8;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border-left: 4px solid #8b6aa5;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.buttons button {
+    margin-top: 10px;
+}
+
+.remove-button {
+    background: #b56b78;
+}
+
+.remove-button:hover {
+    background: #984f5d;
+}
+
+footer {
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .info {
+        grid-template-columns: 1fr;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    .buttons button {
+        width: 100%;
+    }
+}

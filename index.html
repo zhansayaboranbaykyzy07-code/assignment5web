@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>My Profile</h1>
+            <p>A simple personal profile</p>
+        </header>
+
+        <section class="profile-card">
+            <h2>Profile Information</h2>
+
+            <div class="info">
+                <div class="info-box">
+                    <span>👤</span>
+                    <p id="profileName">Name: -</p>
+                </div>
+
+                <div class="info-box">
+                    <span>🎂</span>
+                    <p id="profileAge">Age: -</p>
+                </div>
+
+                <div class="info-box">
+                    <span>⭐</span>
+                    <p id="profileHobbies">Hobbies: -</p>
+                </div>
+            </div>
+
+            <form id="profileForm">
+                <label for="username">Username</label>
+                <input
+                    type="text"
+                    id="username"
+                    placeholder="Enter your name"
+                    required
+                >
+
+                <label for="birthYear">Birth Year</label>
+                <input
+                    type="number"
+                    id="birthYear"
+                    placeholder="Enter your birth year"
+                    required
+                >
+
+                <button type="submit">Create / Update Profile</button>
+            </form>
+        </section>
+
+        <section class="hobbies-card">
+            <h2>My Hobbies</h2>
+            <p>Add or remove your hobbies</p>
+
+            <ul id="hobbyList">
+                <li>Reading</li>
+                <li>Music</li>
+            </ul>
+
+            <input
+                type="text"
+                id="newHobby"
+                placeholder="Enter a new hobby"
+            >
+
+            <div class="buttons">
+                <button id="addHobby">Add Item</button>
+                <button id="removeHobby" class="remove-button">
+                    Remove Item
+                </button>
+            </div>
+        </section>
+
+        <footer>
+            JavaScript Basics
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
