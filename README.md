@@ -2,7 +2,7 @@
 
 ## Student Information
 
-**Name:** Zhansaya  
+**Name:** Zhansaya  Boranbaikyzy
 **Group:** SE-2540  
 
 ## Project Description
@@ -57,8 +57,8 @@ The calculated information is displayed on the page and also printed in the brow
 
 ### Screenshot — Part 1
 
-![alt text](image.png)
----
+<img width="720" height="499" alt="image" src="https://github.com/user-attachments/assets/e12b0313-6fe7-4ea7-8d1b-dbbd2d13fb87" />
+
 
 ## Part 2: Form Input & Event Responses
 
@@ -97,9 +97,8 @@ The updated information is displayed on the webpage using DOM manipulation.
 
 ### Screenshot — Part 2
 
-**Insert your screenshot here:**
+<img width="727" height="499" alt="image" src="https://github.com/user-attachments/assets/ab60c834-4f3d-4892-98bc-c6e39837aba6" />
 
-`![Part 2 Screenshot](images/part2.png)`
 
 ---
 
@@ -136,9 +135,9 @@ This part demonstrates DOM manipulation because JavaScript creates, changes, and
 
 ### Screenshot — Part 3
 
-**Insert your screenshot here:**
+<img width="706" height="370" alt="image" src="https://github.com/user-attachments/assets/70a70e47-e5f6-4b43-9109-ecccaea7ab71" />
+<img width="710" height="362" alt="image" src="https://github.com/user-attachments/assets/f43231d8-4205-4372-a496-d239808e144d" />
 
-`![Part 3 Screenshot](images/part3.png)`
 
 ---
 
